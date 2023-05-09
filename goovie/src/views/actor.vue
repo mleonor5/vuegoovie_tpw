@@ -8,7 +8,7 @@
               left
               style="max-height: 200px"
               :src="actor.poster"
-              alt="Left image"
+              :alt="actor.title"
             ></b-img>
           </b-col>
           <b-col>
@@ -43,7 +43,7 @@
               tag="article"
               style="max-width: 20rem; background-color: transparent"
               class="mb-12"
-              ><b-card-img :src="film.poster"></b-card-img>
+              ><b-card-img :src="film.poster" :alt="film.title"></b-card-img>
               <b-card-title style="color: #fff8f7">{{
                 film.title
               }}</b-card-title>

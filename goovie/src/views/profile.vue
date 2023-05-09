@@ -30,7 +30,7 @@
             style="max-width: 14rem; background-color: transparent"
             class="mb-6"
           >
-            <b-card-img :src="movie.poster"></b-card-img>
+            <b-card-img :src="movie.poster" :img-alt="movie.title"></b-card-img>
             <b-card-title style="color: #fff8f7">{{
               movie.title
             }}</b-card-title>
@@ -55,7 +55,7 @@
             style="max-width: 14rem; background-color: transparent"
             class="mb-6"
           >
-            <b-card-img :src="serie.poster"></b-card-img>
+            <b-card-img :src="serie.poster" :img-alt="serie.title"></b-card-img>
             <b-card-title style="color: #fff8f7">{{
               serie.title
             }}</b-card-title>
@@ -80,7 +80,7 @@
             style="max-width: 14rem; background-color: transparent"
             class="mb-6"
           >
-            <b-card-img :src="favorite.poster"></b-card-img>
+            <b-card-img :src="favorite.poster" :img-alt="favourite.title"></b-card-img>
             <b-card-title style="color: #fff8f7">{{
               favorite.title
             }}</b-card-title>

@@ -19,7 +19,7 @@
               left
               style="max-height: 200px"
               :src="film.poster"
-              alt="Left image"
+              :alt="film.title"
             ></b-img>
           </b-col>
           <b-col>
@@ -133,6 +133,7 @@
               ><b-card-img
                 style="max-width: 150px"
                 :src="actor.photo"
+                :alt="actor.name"
               ></b-card-img>
               <b-card-title style="color: #fff8f7">{{
                 actor.name

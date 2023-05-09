@@ -73,7 +73,7 @@
           width="600"
           left
           src="https://nerdiano.com.br/wp-content/uploads/2019/07/john-wick-tv-series-chapter-3-feature-img-geekexchange-061517.jpg"
-          alt="Image 1"
+          alt="Thumbnail quizz"
         ></b-img>
       </b-col>
       <b-col>

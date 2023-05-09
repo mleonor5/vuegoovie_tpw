@@ -8,7 +8,7 @@
           {{ points }}
           <b-icon icon="controller" style="color: #fff8f7"></b-icon>
         </p>
-        <img :src="trailer.trailer" width="560" height="315" />
+        <img :src="trailer.trailer" alt="Trailer" width="560" height="315" />
       </div>
       <b-form @submit.prevent="gessMovie">
         <b-form-input

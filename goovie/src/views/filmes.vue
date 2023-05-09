@@ -36,7 +36,7 @@
             style="max-width: 20rem; background-color: transparent"
             class="mb-6"
           >
-            <b-card-img :src="movie.poster"></b-card-img>
+            <b-card-img :src="movie.poster" :alt="movie.title"></b-card-img>
             <b-card-title style="color: #fff8f7">{{
               movie.title
             }}</b-card-title>
