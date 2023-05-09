@@ -5,7 +5,7 @@
         <b-col>
           <img
             src="../assets/background.png"
-            alt=""
+            alt="Background"
             style="max-height: 631px"
           />
           <!-- <b-img src="@/assets/logo.png"></b-img> -->
