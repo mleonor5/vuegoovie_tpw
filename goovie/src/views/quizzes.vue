@@ -29,7 +29,7 @@
           <b-card
             title="Guess the movies and shows"
             img-src="https://www.indiewire.com/wp-content/uploads/2021/11/best-film-2.jpg?w=780"
-            img-alt="Image"
+            img-alt="Background image for the quizz of guessing movies and shows"
             img-top
             tag="article"
             style="
@@ -48,7 +48,7 @@
           <b-card
             title="Quizz Action"
             img-src="https://nerdiano.com.br/wp-content/uploads/2019/07/john-wick-tv-series-chapter-3-feature-img-geekexchange-061517.jpg"
-            img-alt="Image"
+            img-alt="Background image for the quizz action"
             img-top
             tag="article"
             style="
@@ -70,7 +70,7 @@
           <b-card
             title="Quizz 2"
             img-src="https://picsum.photos/600/300/?image=96"
-            img-alt="Image"
+            img-alt="Background image for the quizz 2"
             img-top
             tag="article"
             style="
@@ -92,7 +92,7 @@
           <b-card
             title="Quizz 3"
             img-src="https://picsum.photos/600/300/?image=451"
-            img-alt="Image"
+            img-alt="Background image for the quizz 3"
             img-top
             tag="article"
             style="

@@ -6,7 +6,7 @@
           <!-- <b-img src="../assets/background.png"></b-img> -->
           <img
             src="../assets/background.png"
-            alt=""
+            alt="Background"
             style="max-height: 631px"
           />
         </b-col>

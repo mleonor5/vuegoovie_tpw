@@ -19,7 +19,7 @@
               left
               style="max-height: 200px"
               :src="serie.poster"
-              alt="Left image"
+              :alt="serie.title"
             ></b-img>
           </b-col>
           <b-col>
@@ -132,6 +132,7 @@
               ><b-card-img
                 style="max-height: 200px"
                 :src="actor.photo"
+                :alt="actor.name"
               ></b-card-img>
               <b-card-title style="color: #fff8f7">{{
                 actor.name
@@ -259,7 +260,7 @@
                 center
                 style="max-height: 100px; padding-left: 320px; margin-top: 20px"
                 src="../assets/noun-robber-2343245.png"
-                alt=""
+                alt="Robber badge"
               />
             </b-row>
             <b-row>
