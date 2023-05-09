@@ -18,6 +18,7 @@
         img-height="500px"
         style="max-height: 500px"
         img-src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8739d07baed7d77d/5ed9b1c197379739c07664d9/Arcane_Announcement_Banner.jpg"
+        img-alt="Arcane"
       >
         <!-- <b-button>View more</b-button> -->
       </b-carousel-slide>
@@ -25,6 +26,7 @@
         style="max-height: 500px"
         caption="Don't Look Up"
         img-src="https://rollingstone.uol.com.br/media/uploads/leonardo-dicaprio-jennifer-lawrence-e-elenco-de-dont-look-up-foto-divulgacao-netflix.png"
+        img-alt="Don't Look Up"
       >
         <!-- <b-button>View more</b-button> -->
       </b-carousel-slide>
@@ -32,6 +34,7 @@
         style="max-height: 500px"
         caption="Bad and Crazy"
         img-src="https://www.nme.com/wp-content/uploads/2021/12/bad-and-crazy-wi-ha-joon-lee-dong-wook-tvn-301221.jpg"
+        img-alt="Bad and Crazy"
       >
         <!-- <b-button>View more</b-button> -->
       </b-carousel-slide>
@@ -39,6 +42,7 @@
         caption="Spider-Man: No Way Home"
         style="max-height: 500px"
         img-src="https://wallpaperaccess.com/full/6790562.jpg"
+        img-alt="Spider-Man: No Way Home"
       >
         <!-- <b-button>View more</b-button> -->
       </b-carousel-slide>
@@ -46,6 +50,7 @@
         caption="The Witcher"
         style="max-height: 500px"
         img-src="https://popcultura.com.br/wp-content/uploads/2020/07/AAAABXg51hE-1qoRnsNu2KdKAQfL8k29HTDk1-gLyCyZIFNNuL3VwamMY2Xvd5YBIoWr2RfneGv4WHwVoovnVmNmwNVFuFIQ.jpg"
+        img-alt="The Witcher"
       >
         <!-- <b-button>View more</b-button> -->
       </b-carousel-slide>
