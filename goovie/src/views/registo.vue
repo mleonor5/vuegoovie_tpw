@@ -3,20 +3,13 @@
     <b-container class="bv-example-row">
       <b-row>
         <b-col>
-          <!-- <b-img src="../assets/background.png"></b-img> -->
-          <img
-            src="../assets/background.png"
-            alt="Background"
-            style="max-height: 631px"
-          />
+          <img src="../assets/background.png" alt="Background" style="max-height: 631px"/>
         </b-col>
         <b-col>
           <b-row>
             <b-col class="column">
               <h2>
-                <router-link :to="{ name: 'login' }" id="linkLogin"
-                  >Login</router-link
-                >
+                <router-link :to="{ name: 'login' }" id="linkLogin">Login</router-link>
               </h2>
             </b-col>
             <b-col class="column">
@@ -25,79 +18,29 @@
           </b-row>
           <b-form @submit.prevent="register">
             <!-- Username -->
-            <b-form-group
-              id="input-group-1"
-              label="Username"
-              label-for="input-1"
-            >
-              <b-form-input
-                id="input-1"
-                v-model="form.username"
-                type="text"
-                required
-              ></b-form-input>
+            <b-form-group id="input-group-1" label="Username" label-for="input-1">
+              <b-form-input id="input-1" v-model="form.username" type="text" required></b-form-input>
             </b-form-group>
             <!-- Nacionalidade -->
-            <b-form-group
-              id="input-group-2"
-              label="Nationality"
-              label-for="input-2"
-            >
+            <b-form-group id="input-group-2" label="Nationality" label-for="input-2">
               <b-form-select id="input-2" v-model="form.nacionality" required>
-                <b-form-select-option :value="null" disabled
-                  >Please select an option</b-form-select-option
-                >
-                <b-form-select-option
-                  v-for="(country, index) in getCountries"
-                  :key="index"
-                  :value="country.value"
-                  >{{ country.text }}</b-form-select-option
-                >
+                <b-form-select-option :value="null" disabled>Please select an option</b-form-select-option>
+                <b-form-select-option v-for="(country, index) in getCountries" :key="index" :value="country.value">{{ country.text }}</b-form-select-option>
               </b-form-select>
             </b-form-group>
             <!-- Password -->
-            <b-form-group
-              id="input-group-3"
-              label="Password"
-              label-for="input-3"
-            >
-              <b-form-input
-                id="input-3"
-                v-model="form.password"
-                type="password"
-                :state="validation"
-                required
-              ></b-form-input>
-              <b-form-invalid-feedback :state="validation">
-                Yourpassword must have more than 6 characters long.
-              </b-form-invalid-feedback>
-              <b-form-valid-feedback :state="validation">
-                Looks Good.
-              </b-form-valid-feedback>
+            <b-form-group id="input-group-3" label="Password" label-for="input-3">
+              <b-form-input id="input-3" v-model="form.password" type="password" :state="validation" required></b-form-input>
+              <b-form-invalid-feedback :state="validation"> Yourpassword must have more than 6 characters long.</b-form-invalid-feedback>
+              <b-form-valid-feedback :state="validation">Looks Good.</b-form-valid-feedback>
             </b-form-group>
             <!-- Confirm Password -->
-            <b-form-group
-              id="input-group-4"
-              label="Confirm Password"
-              label-for="input-4"
-            >
-              <b-form-input
-                id="input-4"
-                v-model="form.passwordConfirm"
-                type="password"
-                :state="confirm"
-                required
-              ></b-form-input>
-              <b-form-invalid-feedback :state="confirm">
-                Password is not equal.
-              </b-form-invalid-feedback>
-              <b-form-valid-feedback :state="confirm">
-                Password is the same
-              </b-form-valid-feedback>
+            <b-form-group id="input-group-4" label="Confirm Password" label-for="input-4">
+              <b-form-input id="input-4" v-model="form.passwordConfirm" type="password" :state="confirm" required></b-form-input>
+              <b-form-invalid-feedback :state="confirm">Password is not equal.</b-form-invalid-feedback>
+              <b-form-valid-feedback :state="confirm">Password is the same</b-form-valid-feedback>
             </b-form-group>
-            <b-button type="submit" variant="primary" id="button"
-              >Register</b-button
-            >
+            <b-button type="submit" variant="primary" id="button">Register</b-button>
           </b-form>
         </b-col>
       </b-row>

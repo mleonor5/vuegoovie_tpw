@@ -9,28 +9,10 @@
           <p id="labelEdit">Password:</p>
         </b-col>
         <b-col>
-          <b-form-input
-            style="color: #fff8f7"
-            id="user"
-            type="url"
-            v-model="form.photo"
-            :placeholder="getLoggedUser.photo"
-          ></b-form-input>
-          <b-form-input
-            style="color: #fff8f7"
-            id="user"
-            type="text"
-            v-model="form.username"
-            :placeholder="getLoggedUser.username"
-          ></b-form-input>
+          <b-form-input style="color: #fff8f7" id="user" type="url" v-model="form.photo" :placeholder="getLoggedUser.photo"></b-form-input>
+          <b-form-input style="color: #fff8f7" id="user" type="text" v-model="form.username" :placeholder="getLoggedUser.username"></b-form-input>
           <lang-flag id="flagEdit" :iso="getLoggedUser.location" />
-          <b-form-input
-            style="color: #fff8f7"
-            id="pass"
-            type="text"
-            v-model="form.password"
-            :placeholder="getLoggedUser.password"
-          ></b-form-input>
+          <b-form-input style="color: #fff8f7" id="pass" type="text" v-model="form.password" :placeholder="getLoggedUser.password"></b-form-input>
         </b-col>
       </b-row>
     </b-container>

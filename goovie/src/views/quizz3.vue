@@ -6,7 +6,6 @@
         <div>
           <p>1/ 10</p>
           <p>0<b-icon icon="controller"></b-icon></p>
-
           <br />
           <audio controls>
             <source src="../assets/Laser Gun.mp3" type="audio/mpeg" />
@@ -14,16 +13,16 @@
           </audio>
           <b-card-group>
             <b-card tag="article" style="max-width: 20rem" class="mb-12">
-              <button type="submit" value="a" id="button1">A. Friends</button>
+              <button type="submit" value="a" id="buttonA" class="button1">A. Friends</button>
             </b-card>
             <b-card tag="article" style="max-width: 20rem" class="mb-12">
-              <button type="submit" value="b" id="button1">B. Friends</button>
+              <button type="submit" value="b" id="buttonB" class="button1">B. Friends</button>
             </b-card>
             <b-card tag="article" style="max-width: 20rem" class="mb-12">
-              <button type="submit" value="c" id="button1">C. Friends</button>
+              <button type="submit" value="c" id="buttonC" class="button1">C. Friends</button>
             </b-card>
             <b-card tag="article" style="max-width: 20rem" class="mb-12">
-              <button type="submit" value="d" id="button1">D. Friends</button>
+              <button type="submit" value="d" id="buttonD" class="button1">D. Friends</button>
             </b-card>
           </b-card-group>
         </div>
@@ -33,17 +32,11 @@
   </div>
   <div v-else>
     <b-col>
-      <b-img
-        width="600"
-        left
-        thumbnail
-        src="https://nerdiano.com.br/wp-content/uploads/2019/07/john-wick-tv-series-chapter-3-feature-img-geekexchange-061517.jpg"
-        alt="Image 1"
-      ></b-img>
+      <b-img width="600" left thumbnail src="https://nerdiano.com.br/wp-content/uploads/2019/07/john-wick-tv-series-chapter-3-feature-img-geekexchange-061517.jpg" alt="Image 1"></b-img>
     </b-col>
     <b-col>
       <h1>Quizz 3</h1>
-      <b-button href="#" id="button1" @click="start">Play</b-button>
+      <b-button href="#" id="buttonPlay" class="button1" @click="start">Play</b-button>
       <p>{{ status }}</p>
     </b-col>
   </div>

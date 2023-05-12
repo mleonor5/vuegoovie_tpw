@@ -1,12 +1,9 @@
 <template>
   <div id="profile">
     <b-avatar size="100px" :src="getLoggedUser.photo"></b-avatar>
-    <h4 id="username">
-      {{ getLoggedUser.username }} <lang-flag :iso="getLoggedUser.location" />
+    <h4 id="username">{{ getLoggedUser.username }} <lang-flag :iso="getLoggedUser.location" />
     </h4>
-    <p id="description">
-      We all make choices in life, but in the end our choices make us!
-    </p>
+    <p id="description">We all make choices in life, but in the end our choices make us!</p>
     <b-container class="bv-example-row">
       <b-row>
         <b-col>
@@ -25,22 +22,10 @@
     <b-container fluid="sm">
       <b-row>
         <b-card-group deck v-for="(movie, index) in watchedFilms" :key="index">
-          <b-card
-            tag="article"
-            style="max-width: 14rem; background-color: transparent"
-            class="mb-6"
-          >
+          <b-card tag="article" style="max-width: 14rem; background-color: transparent" class="mb-6">
             <b-card-img :src="movie.poster" :alt="movie.title"></b-card-img>
-            <b-card-title style="color: #fff8f7">{{
-              movie.title
-            }}</b-card-title>
-            <b-button
-              id="button2"
-              @click="
-                $router.push({ name: 'filme', params: { filmeId: movie.id } })
-              "
-              >View more</b-button
-            >
+            <b-card-title style="color: #fff8f7">{{movie.title}}</b-card-title>
+            <b-button id="button2" @click="$router.push({ name: 'filme', params: { filmeId: movie.id } })">View more</b-button>
           </b-card>
         </b-card-group>
       </b-row>
@@ -50,22 +35,10 @@
     <b-container fluid="sm">
       <b-row>
         <b-card-group deck v-for="(serie, index) in watchedSeries" :key="index">
-          <b-card
-            tag="article"
-            style="max-width: 14rem; background-color: transparent"
-            class="mb-6"
-          >
+          <b-card tag="article" style="max-width: 14rem; background-color: transparent" class="mb-6">
             <b-card-img :src="serie.poster" :alt="serie.title"></b-card-img>
-            <b-card-title style="color: #fff8f7">{{
-              serie.title
-            }}</b-card-title>
-            <b-button
-              id="button2"
-              @click="
-                $router.push({ name: 'serie', params: { serieId: serie.id } })
-              "
-              >View more</b-button
-            >
+            <b-card-title style="color: #fff8f7">{{serie.title}}</b-card-title>
+            <b-button id="button2" @click="$router.push({ name: 'serie', params: { serieId: serie.id } })">View more</b-button>
           </b-card>
         </b-card-group>
       </b-row>
@@ -75,18 +48,10 @@
     <b-container fluid="sm">
       <b-row>
         <b-card-group deck v-for="(favorite, index) in favorites" :key="index">
-          <b-card
-            tag="article"
-            style="max-width: 14rem; background-color: transparent"
-            class="mb-6"
-          >
+          <b-card tag="article" style="max-width: 14rem; background-color: transparent" class="mb-6">
             <b-card-img :src="favorite.poster" :alt="favourite.title"></b-card-img>
-            <b-card-title style="color: #fff8f7">{{
-              favorite.title
-            }}</b-card-title>
-            <b-button id="button2" @click="removeFavorite(favorite.title)"
-              >Remove</b-button
-            >
+            <b-card-title style="color: #fff8f7">{{favorite.title}}</b-card-title>
+            <b-button id="button2" @click="removeFavorite(favorite.title)">Remove</b-button>
           </b-card>
         </b-card-group>
       </b-row>
@@ -95,10 +60,7 @@
     <b-container class="bv-example-row" id="badgeContainer">
       <b-row>
         <b-col>
-          <b-avatar
-            size="100px"
-            href="../assets/badgets/Car-flying.svg"
-          ></b-avatar>
+          <b-avatar size="100px" href="../assets/badgets/Car-flying.svg"></b-avatar>
           <p id="badgeName">Futuristic</p>
         </b-col>
         <b-col>

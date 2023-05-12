@@ -3,12 +3,7 @@
     <b-container class="bv-example-row">
       <b-row>
         <b-col>
-          <img
-            src="../assets/background.png"
-            alt="Background"
-            style="max-height: 631px"
-          />
-          <!-- <b-img src="@/assets/logo.png"></b-img> -->
+          <img src="../assets/background.png" alt="Background" style="max-height: 631px"/>
         </b-col>
         <b-col>
           <b-row>
@@ -17,38 +12,18 @@
             </b-col>
             <b-col class="column">
               <h2>
-                <router-link :to="{ name: 'register' }" id="linkRegister"
-                  >Register</router-link
-                >
+                <router-link :to="{ name: 'register' }" id="linkRegister">Register</router-link>
               </h2>
             </b-col>
           </b-row>
           <b-form @submit.prevent="login">
             <!-- Username -->
-            <b-form-group
-              id="input-group-1"
-              label="Username"
-              label-for="input-1"
-            >
-              <b-form-input
-                id="input-1"
-                v-model="username"
-                type="text"
-                required
-              ></b-form-input>
+            <b-form-group id="input-group-1" label="Username" label-for="input-1">
+              <b-form-input id="input-1" v-model="username" type="text" required></b-form-input>
             </b-form-group>
             <!-- Password -->
-            <b-form-group
-              id="input-group-3"
-              label="Password"
-              label-for="input-3"
-            >
-              <b-form-input
-                id="input-3"
-                v-model="password"
-                type="password"
-                required
-              ></b-form-input>
+            <b-form-group id="input-group-3" label="Password" label-for="input-3">
+              <b-form-input id="input-3" v-model="password" type="password" required></b-form-input>
             </b-form-group>
             <b-button type="submit" id="button">Login</b-button>
           </b-form>

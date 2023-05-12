@@ -5,13 +5,7 @@
         <h1>Classifications</h1>
       </b-col>
       <b-col>
-        <b-dropdown
-          id="dropdown-right"
-          right
-          text="Filter"
-          variant="outline-danger"
-          class="m-2"
-        >
+        <b-dropdown id="dropdown-right" right text="Filter" variant="outline-danger" class="m-2">
           <b-dropdown-item href="#">Worldwide</b-dropdown-item>
           <b-dropdown-item href="#">National</b-dropdown-item>
         </b-dropdown>
@@ -29,18 +23,11 @@
                 <b-th style="color: #fff8f7">Nacionality</b-th>
               </b-tr>
               <b-tr v-for="(user, index) in getUsers" :key="index">
-                <b-td v-if="user.type != 'admin'" style="color: #fff8f7">{{
-                  index
-                }}</b-td>
-                <b-td v-if="user.type != 'admin'" style="color: #fff8f7">{{
-                  user.username
-                }}</b-td>
-                <b-td v-if="user.type != 'admin'" style="color: #fff8f7">{{
-                  user.points
-                }}</b-td>
+                <b-td v-if="user.type != 'admin'" style="color: #fff8f7">{{index}}</b-td>
+                <b-td v-if="user.type != 'admin'" style="color: #fff8f7">{{user.username}}</b-td>
+                <b-td v-if="user.type != 'admin'" style="color: #fff8f7">{{user.points}}</b-td>
                 <b-td v-if="user.type != 'admin'" style="color: #fff8f7">
                   <lang-flag :iso="user.location" />
-                  <!-- {{user.location}} -->
                 </b-td>
               </b-tr>
             </b-thead>

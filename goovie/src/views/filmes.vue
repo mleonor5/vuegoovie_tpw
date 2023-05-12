@@ -6,13 +6,7 @@
       </b-col>
       <b-col>
         <!-- Filtro -->
-        <b-dropdown
-          id="dropdown-right"
-          right
-          text="Filter"
-          variant="outline-danger"
-          class="m-2"
-        >
+        <b-dropdown id="dropdown-right" right text="Filter" variant="outline-danger" class="m-2">
           <b-dropdown-item href="#">Recents</b-dropdown-item>
           <b-dropdown-item href="#">Best Qualified</b-dropdown-item>
           <b-dropdown-item href="#">Action</b-dropdown-item>
@@ -25,28 +19,11 @@
     <!-- Filmes -->
     <b-container fluid="sm">
       <b-row>
-        <b-card-group
-          deck
-          style="margin-top: 30px"
-          v-for="(movie, index) in getMovies"
-          :key="index"
-        >
-          <b-card
-            tag="article"
-            style="max-width: 20rem; background-color: transparent"
-            class="mb-6"
-          >
+        <b-card-group deck style="margin-top: 30px" v-for="(movie, index) in getMovies" :key="index">
+          <b-card tag="article" style="max-width: 20rem; background-color: transparent" class="mb-6">
             <b-card-img :src="movie.poster" :alt="movie.title"></b-card-img>
-            <b-card-title style="color: #fff8f7">{{
-              movie.title
-            }}</b-card-title>
-            <b-button
-              @click="
-                $router.push({ name: 'filme', params: { filmeId: movie.id } })
-              "
-              id="button2"
-              >View more</b-button
-            >
+            <b-card-title style="color: #fff8f7">{{movie.title}}</b-card-title>
+            <b-button @click="$router.push({ name: 'filme', params: { filmeId: movie.id } })" id="button2">View more</b-button>
           </b-card>
         </b-card-group>
       </b-row>
