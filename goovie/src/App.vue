@@ -4,44 +4,25 @@
       <b-navbar toggleable="lg" type="dark" variant="" id="navbarBackground">
         <b-navbar-brand href="#">
           <router-link to="/">
-            <img
-              alt="Goovie logo"
-              src="@/assets/goovie.png"
-              width="107px"
-              height="55px"
-            />
+            <img alt="Goovie logo" src="@/assets/goovie.png" width="107px" height="55px"/>
           </router-link>
         </b-navbar-brand>
-
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav id="navbar">
-            <router-link to="/filmes" id="link">Movies</router-link>
-            <router-link to="/series" id="link">Series</router-link>
-            <router-link to="/quizzes" id="link">Quizzes</router-link>
-            <router-link to="/classifications" id="link"
-              >Classifications</router-link
-            >
+            <router-link to="/filmes" id="filmes" class="link">Movies</router-link>
+            <router-link to="/series" id="series" class="link">Series</router-link>
+            <router-link to="/quizzes" id="quizzes" class="link">Quizzes</router-link>
+            <router-link to="/classifications" id="classifications" class="link">Classifications</router-link>
           </b-navbar-nav>
-
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <b-nav-item href="#">
               <b-icon icon="search" width="30px" height="30px"></b-icon>
             </b-nav-item>
             <b-nav-item href="#">
-              <router-link to="/profile" id="link">
-                <b-avatar
-                  width="35px"
-                  height="35px"
-                  v-if="loggedIn"
-                  :src="loggedIn.photo"
-                ></b-avatar>
-                <b-icon
-                  v-else
-                  icon="person-circle"
-                  width="35px"
-                  height="35px"
-                ></b-icon>
+              <router-link to="/profile" id="profile" class="link">
+                <b-avatar width="35px" height="35px" v-if="loggedIn" :src="loggedIn.photo"></b-avatar>
+                <b-icon v-else icon="person-circle" width="35px" height="35px"></b-icon>
               </router-link>
             </b-nav-item>
             <b-nav-item href="#" v-if="loggedIn" @click="setLogin()">
@@ -59,28 +40,20 @@
         <b-row>
           <b-col>
             <p>
-              <router-link to="/filmes" style="color: #070707"
-                >Movies</router-link
-              >
+              <router-link to="/filmes" style="color: #070707">Movies</router-link>
             </p>
             <p>
-              <router-link to="/series" style="color: #070707"
-                >Series</router-link
-              >
+              <router-link to="/series" style="color: #070707">Series</router-link>
             </p>
             <p>Actors</p>
             <p>Director</p>
           </b-col>
           <b-col>
             <p>
-              <router-link to="/classifications" style="color: #070707"
-                >Classifications</router-link
-              >
+              <router-link to="/classifications" style="color: #070707">Classifications</router-link>
             </p>
             <p>
-              <router-link to="/quizzes" style="color: #070707"
-                >Quizzes</router-link
-              >
+              <router-link to="/quizzes" style="color: #070707">Quizzes</router-link>
             </p>
           </b-col>
           <b-col>
@@ -90,12 +63,7 @@
         </b-row>
       </b-container>
       <router-link to="/">
-        <img
-          alt="Goovie logo"
-          src="@/assets/goovie2.png"
-          width="107px"
-          height="55px"
-        />
+        <img alt="Goovie logo" src="@/assets/goovie2.png" width="107px" height="55px"/>
       </router-link>
     </footer>
   </div>
@@ -128,14 +96,14 @@ export default {
   color: #2c3e50;
 }
 
-#link {
+.link {
   padding: 30px;
   color: #fef8f8;
   text-decoration: none;
 }
-
-#link:hover {
+.link:hover {
   text-decoration: #de2221;
+  color: #fef8f8;
   text-decoration-line: underline;
 }
 
