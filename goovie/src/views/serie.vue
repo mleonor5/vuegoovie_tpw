@@ -127,7 +127,11 @@
               <h1 id="h1" style="padding-left: 300px">Spoiler!?</h1>
             </b-row>
             <b-row class="text-center">
-              <img center style="max-height: 100px; padding-left: 320px; margin-top: 20px" src="../assets/noun-robber-2343245.png" alt="Robber badge"/>
+              <picture>
+                <source type="image/webp" srcset="@/assets/noun-robber-2343245.webp">
+                <source type="image/png" srcset="@/assets/noun-robber-2343245.png">
+                <img src="@/assets/noun-robber-2343245.png" alt="Imagem para ocultar comentário" center style="max-height: 100px; padding-left: 320px; margin-top:20px"/>
+              </picture>
             </b-row>
             <b-row>
               <b-button id="buttonGame" style="margin-left: 300px; margin-top: 20px" @click="showComment">See anyway</b-button>
