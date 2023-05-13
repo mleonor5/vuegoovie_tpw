@@ -47,7 +47,7 @@
           <b-card tag="article" style="max-width: 14rem; background-color: transparent" class="mb-12">
             <b-card-img :src="movie.poster"></b-card-img>
             <b-card-title style="color: #fff8f7">{{movie.title}}</b-card-title>
-            <b-button href="#" id="button2" @click="$router.push({ name: 'filme', params: { filmeId: movie.id } })">View more</b-button>
+            <b-button href="#" id="viewBest" class="button2" @click="$router.push({ name: 'filme', params: { filmeId: movie.id } })">View more</b-button>
           </b-card>
         </b-card-group>
       </b-row>
@@ -65,7 +65,7 @@
           <b-card tag="article" style="max-width: 14rem; background-color: transparent" class="mb-12">
             <b-card-img :src="serie.poster"></b-card-img>
             <b-card-title style="color: #fff8f7">{{serie.title}}</b-card-title>
-            <b-button href="#" id="button2" @click="$router.push({ name: 'serie', params: { serieId: serie.id } })">View more</b-button>
+            <b-button href="#" id="viewMore" class="button2" @click="$router.push({ name: 'serie', params: { serieId: serie.id } })">View more</b-button>
           </b-card>
         </b-card-group>
       </b-row>
@@ -78,7 +78,7 @@
         </b-col>
         <b-col>
           <h1>Guess the movies and shows</h1>
-          <b-button href="#" id="button2">
+          <b-button href="#" id="viewPlay" class="button2">
             <router-link :to="{ name: 'game' }" style="color: #fef8f8">Play</router-link>
           </b-button>
         </b-col>
@@ -168,17 +168,20 @@ export default {
   width: 170px;
   height: 40px;
 }
-#buttonAction, #buttonQuizz2, #buttonQuizz3, #buttonGuess {
+#buttonAction, #buttonQuizz2, #buttonQuizz3, #buttonGuess, #viewMoreFilm, #viewMoreSerie, #remove {
   background-color: #de2221;
   border-color: #de2221;
 }
-#button2 {
+.button2 {
+  border-width: 2px;
+}
+#button2, #viewBest, #viewMore, #viewPlay {
   background-color: transparent;
   border-color: #de2221;
   border-width: 2px;
   color: #fef8f8;
 }
-#button2:hover {
+#button2:hover, #viewBest:hover, #viewMore:hover, #viewPlay:hover, #viewMoreFilm:hover, #viewMoreSerie:hover, #remove:hover {
   background-color: #de2221;
 }
 </style>

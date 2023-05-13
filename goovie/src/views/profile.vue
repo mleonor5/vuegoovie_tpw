@@ -25,7 +25,7 @@
           <b-card tag="article" style="max-width: 14rem; background-color: transparent" class="mb-6">
             <b-card-img :src="movie.poster" :alt="movie.title"></b-card-img>
             <b-card-title style="color: #fff8f7">{{movie.title}}</b-card-title>
-            <b-button id="button2" @click="$router.push({ name: 'filme', params: { filmeId: movie.id } })">View more</b-button>
+            <b-button id="viewMoreFilm" class="button2" @click="$router.push({ name: 'filme', params: { filmeId: movie.id } })">View more</b-button>
           </b-card>
         </b-card-group>
       </b-row>
@@ -38,7 +38,7 @@
           <b-card tag="article" style="max-width: 14rem; background-color: transparent" class="mb-6">
             <b-card-img :src="serie.poster" :alt="serie.title"></b-card-img>
             <b-card-title style="color: #fff8f7">{{serie.title}}</b-card-title>
-            <b-button id="button2" @click="$router.push({ name: 'serie', params: { serieId: serie.id } })">View more</b-button>
+            <b-button id="viewMoreSerie" class="button2" @click="$router.push({ name: 'serie', params: { serieId: serie.id } })">View more</b-button>
           </b-card>
         </b-card-group>
       </b-row>
@@ -51,7 +51,7 @@
           <b-card tag="article" style="max-width: 14rem; background-color: transparent" class="mb-6">
             <b-card-img :src="favorite.poster" :alt="favourite.title"></b-card-img>
             <b-card-title style="color: #fff8f7">{{favorite.title}}</b-card-title>
-            <b-button id="button2" @click="removeFavorite(favorite.title)">Remove</b-button>
+            <b-button id="remove" class="button2" @click="removeFavorite(favorite.title)">Remove</b-button>
           </b-card>
         </b-card-group>
       </b-row>

@@ -70,7 +70,7 @@
               <b-card-img style="max-height: 200px" :src="actor.photo" :alt="actor.name"></b-card-img>
               <b-card-title style="color: #fff8f7">{{actor.name}}</b-card-title>
               <br />
-              <b-button href="#" id="button2" @click="$router.push({ name: 'actor', params: { actorId: actor.id } })">View more</b-button>
+              <b-button href="#" id="viewMore" class="button2" @click="$router.push({ name: 'actor', params: { actorId: actor.id } })">View more</b-button>
             </b-card>
           </b-card-group>
         </b-row>

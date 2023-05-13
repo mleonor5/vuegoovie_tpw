@@ -25,7 +25,7 @@
               <b-card-img :src="film.poster" :alt="film.title"></b-card-img>
               <b-card-title style="color: #fff8f7">{{film.title}}</b-card-title>
               <div v-if="film.id <= 6">
-                <b-button href="#" id="button2" @click="$router.push({name: 'filme', params: { filmeId: film.id },})">View more</b-button>
+                <b-button href="#" id="viewMore" class="button2" @click="$router.push({name: 'filme', params: { filmeId: film.id },})">View more</b-button>
               </div>
               <div v-else>
                 <b-button href="#" id="buttonSerie" class="button1" @click="$router.push({name: 'serie',params: { serieId: film.id },})">View more</b-button>

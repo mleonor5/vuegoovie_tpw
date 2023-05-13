@@ -67,7 +67,7 @@
             <b-card tag="article" style="max-width: 14rem; background-color: transparent" class="mb-12">
               <b-card-img style="max-width: 150px" :src="actor.photo" :alt="actor.name"></b-card-img>
               <b-card-title style="color: #fff8f7">{{actor.name}}</b-card-title>
-              <b-button href="#" id="button2" @click="$router.push({ name: 'actor', params: { actorId: actor.id } })">View more</b-button>
+              <b-button href="#" id="viewMore" class="button2" @click="$router.push({ name: 'actor', params: { actorId: actor.id } })">View more</b-button>
             </b-card>
           </b-card-group>
         </b-row>

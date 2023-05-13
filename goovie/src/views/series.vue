@@ -23,7 +23,7 @@
           <b-card tag="article" style="max-width: 20rem; background-color: transparent" class="mb-6">
             <b-card-img :src="serie.poster" :img-alt="serie.title"></b-card-img>
             <b-card-title style="color: #fff8f7">{{serie.title}}</b-card-title>
-            <b-button @click="$router.push({ name: 'serie', params: { serieId: serie.id } })" id="button2">View more</b-button>
+            <b-button @click="$router.push({ name: 'serie', params: { serieId: serie.id } })" id="viewMore" class="button2">View more</b-button>
           </b-card>
         </b-card-group>
       </b-row>
