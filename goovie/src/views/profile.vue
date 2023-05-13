@@ -60,19 +60,19 @@
     <b-container class="bv-example-row" id="badgeContainer">
       <b-row>
         <b-col>
-          <b-avatar size="100px" href="../assets/badgets/Car-flying.svg"></b-avatar>
+          <img src="@/assets/badgets/Car-flying.webp" alt="Futuristic badgets" center style="max-height: 100px; border-radius:50px"/>
           <p id="badgeName">Futuristic</p>
         </b-col>
         <b-col>
-          <b-avatar size="100px"></b-avatar>
+          <img src="@/assets/badgets/Film.webp" alt="Hawkeye badgets" center style="max-height: 100px; border-radius:50px"/>
           <p id="badgeName">Hawkeye</p>
         </b-col>
         <b-col>
-          <b-avatar size="100px"></b-avatar>
+          <img src="@/assets/badgets/super-herois.png" alt="Super Herois badgets" center style="max-height: 100px; border-radius:50px"/>
           <p id="badgeName">Super Herois</p>
         </b-col>
         <b-col>
-          <b-avatar size="100px"></b-avatar>
+          <img src="@/assets/badgets/true_detective.png" alt="True Detective badgets" center style="max-height: 100px; border-radius:50px"/>
           <p id="badgeName">True Detective</p>
         </b-col>
       </b-row>

@@ -4,11 +4,7 @@
       <b-navbar toggleable="lg" type="dark" variant="" id="navbarBackground">
         <b-navbar-brand href="#">
           <router-link to="/">
-            <picture>
-              <source type="image/webp" srcset="@/assets/goovie.webp">
-              <source type="image/png" srcset="@/assets/goovie.png">
-              <img src="@/assets/goovie.png" alt="Goovie Logo" style="height: 55px; width: 107px"/>
-            </picture>
+            <img src="@/assets/goovie.png" alt="Goovie Logo" style="height: 55px; width: 107px"/>
           </router-link>
         </b-navbar-brand>
         <b-collapse id="nav-collapse" is-nav>
@@ -67,11 +63,7 @@
         </b-row>
       </b-container>
       <router-link to="/">
-        <picture>
-            <source type="image/webp" srcset="@/assets/goovie2.webp">
-            <source type="image/png" srcset="@/assets/goovie2.png">
-            <img src="@/assets/goovie2.png" alt="Goovie Logo" style="height: 55px; width: 107px"/>
-          </picture>
+        <img src="@/assets/goovie2.webp" alt="Goovie Logo" style="height: 55px; width: 107px"/>
       </router-link>
     </footer>
   </div>
