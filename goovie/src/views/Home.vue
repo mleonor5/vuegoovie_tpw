@@ -175,13 +175,13 @@ export default {
 .button2 {
   border-width: 2px;
 }
-#button2, #viewBest, #viewMore, #viewPlay {
+#viewBest, #viewMore, #viewPlay {
   background-color: transparent;
   border-color: #de2221;
   border-width: 2px;
   color: #fef8f8;
 }
-#button2:hover, #viewBest:hover, #viewMore:hover, #viewPlay:hover, #viewMoreFilm:hover, #viewMoreSerie:hover, #remove:hover {
+#viewBest:hover, #viewMore:hover, #viewPlay:hover, #viewMoreFilm:hover, #viewMoreSerie:hover, #remove:hover {
   background-color: #de2221;
 }
 </style>
