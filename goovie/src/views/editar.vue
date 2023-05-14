@@ -30,7 +30,6 @@
     </b-container>
   </div>
 </template>
-
 <script>
 import { mapMutations, mapGetters } from "vuex";
 export default {
@@ -55,44 +54,6 @@ export default {
   },
 };
 </script>
-
 <style>
-#buttonCancel {
-  border-color: #fef8f8;
-  background-color: #070707;
-}
-
-#buttonCancel:hover {
-  background-color: #fef8f8;
-  color: #070707;
-}
-
-#user,
-#pass {
-  border-color: #de2221;
-  background-color: #070707;
-}
-
-#labelEdit {
-  color: #fef8f8;
-  padding-bottom: 35px;
-}
-
-#flagEdit {
-  width: 50px;
-  height: 50px;
-}
-
-#formEdit {
-  padding-top: 100px;
-}
-
-#flagEdit {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-#buttonsEdit {
-  padding-bottom: 40px;
-}
+#buttonCancel{border-color:#fef8f8;background-color:#070707}#buttonCancel:hover{background-color:#fef8f8;color:#070707}#pass,#user{border-color:#de2221;background-color:#070707}#labelEdit{color:#fef8f8;padding-bottom:35px}#flagEdit{width:50px;height:50px;padding-top:50px;padding-bottom:50px}#formEdit{padding-top:100px}#buttonsEdit{padding-bottom:40px}
 </style>

@@ -39,16 +39,11 @@
     <br /><br /><br /><br /><br /><br />
   </div>
 </template>
-
 <script>
 import { mapGetters } from "vuex";
-
 export default {
   computed: {
     ...mapGetters(["getUsers"]),
   },
 };
 </script>
-
-<style>
-</style>

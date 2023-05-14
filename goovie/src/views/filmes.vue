@@ -30,16 +30,11 @@
     </b-container>
   </div>
 </template>
-
 <script>
 import { mapGetters } from "vuex";
-
 export default {
   computed: {
     ...mapGetters(["getMovies"]),
   },
 };
 </script>
-
-<style>
-</style>

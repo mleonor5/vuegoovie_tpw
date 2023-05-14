@@ -46,7 +46,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import { mapGetters, mapMutations } from "vuex";
 export default {
@@ -149,34 +148,6 @@ export default {
   },
 };
 </script>
-
 <style>
-#input-5 {
-  margin-top: 30px;
-  width: 600px;
-  background-color: transparent;
-  border-color: #de2221;
-  color: #fef8f8;
-}
-#buttonGame {
-  width: 150px;
-  margin-top: 30px;
-  background-color: #de2221;
-  border-color: #de2221;
-  border-width: 2px;
-  color: #fef8f8;
-}
-#buttonGame2 {
-  width: 150px;
-  margin-top: 30px;
-  margin-left: 30px;
-  background-color: transparent;
-  border-color: #de2221;
-  border-width: 2px;
-  color: #fef8f8;
-}
-#thumbnail {
-  margin-top: 60px;
-  margin-left: 50px;
-}
+#buttonGame2,#input-5{background-color:transparent}#buttonGame,#buttonGame2{width:150px;border-width:2px}#buttonGame,#buttonGame2,#input-5{margin-top:30px;border-color:#de2221;color:#fef8f8}#input-5{width:600px}#buttonGame{background-color:#de2221}#buttonGame2{margin-left:30px}#thumbnail{margin-top:60px;margin-left:50px}
 </style>

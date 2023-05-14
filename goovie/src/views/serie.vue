@@ -148,7 +148,6 @@
 
 <script>
 import { mapGetters, mapMutations } from "vuex";
-
 export default {
   name: "Serie",
   data() {
@@ -235,28 +234,6 @@ export default {
   },
 };
 </script>
-
 <style>
-#container1 {
-  margin-top: 10px;
-}
-#container2 {
-  margin-top: 60px;
-}
-#container3 {
-  margin-top: 60px;
-}
-#directorh3 {
-  color: #baa5a3;
-}
-#directorp {
-  margin-left: -1080px;
-  margin-top: 10px;
-  color: #fff8f7;
-}
-#sipnose {
-  text-align: justify;
-  margin-top: 5px;
-  color: #fff8f7;
-}
+#container1,#directorp{margin-top:10px}#container2,#container3{margin-top:60px}#directorh3{color:#baa5a3}#directorp{margin-left:-1080px;color:#fff8f7}#sipnose{text-align:justify;margin-top:5px;color:#fff8f7}
 </style>

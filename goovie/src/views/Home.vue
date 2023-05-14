@@ -86,7 +86,6 @@
     </b-container>
   </div>
 </template>
-
 <script>
 import { mapGetters } from "vuex";
 export default {
@@ -112,76 +111,6 @@ export default {
   },
 };
 </script>
-
 <style>
-#app1 {
-  background-color: #070707;
-}
-#h1 {
-  margin-top: 50px;
-  padding-left: 500px;
-}
-#p {
-  padding-left: 410px;
-  margin-top: 5px;
-}
-#challenges {
-  background-color: #fff8f7;
-}
-#grup {
-  padding-left: 80px;
-  margin-top: 30px;
-}
-#h12 {
-  margin-top: 50px;
-  padding-left: 550px;
-}
-#p2 {
-  padding-left: 460px;
-  margin-top: 5px;
-  color: #fff8f7;
-}
-#p3 {
-  padding-left: 470px;
-  margin-top: 5px;
-  color: #fff8f7;
-}
-#grup2 {
-  padding-left: 60px;
-  margin-top: 30px;
-}
-#grup3 {
-  padding-left: 60px;
-  margin-top: 30px;
-}
-#quizz {
-  margin-top: 150px;
-}
-#quizz h1 {
-  margin-top: 100px;
-}
-.button1 {
-  background-color: #de2221;
-  border-color: #de2221;
-  border-width: 2px;
-  color: #fef8f8;
-  width: 170px;
-  height: 40px;
-}
-#buttonAction, #buttonQuizz2, #buttonQuizz3, #buttonGuess, #viewMoreFilm, #viewMoreSerie, #remove {
-  background-color: #de2221;
-  border-color: #de2221;
-}
-.button2 {
-  border-width: 2px;
-}
-#viewBest, #viewMore, #viewPlay {
-  background-color: transparent;
-  border-color: #de2221;
-  border-width: 2px;
-  color: #fef8f8;
-}
-#viewBest:hover, #viewMore:hover, #viewPlay:hover, #viewMoreFilm:hover, #viewMoreSerie:hover, #remove:hover {
-  background-color: #de2221;
-}
+#h1,#h12{margin-top:50px}#p2,#p3{margin-top:5px;color:#fff8f7}#viewBest,#viewMore,#viewPlay,.button1{border-color:#de2221;border-width:2px;color:#fef8f8}#remove:hover,#viewBest:hover,#viewMore:hover,#viewMoreFilm:hover,#viewMoreSerie:hover,#viewPlay:hover,.button1{background-color:#de2221}#app1{background-color:#070707}#h1{padding-left:500px}#p{padding-left:410px;margin-top:5px}#challenges{background-color:#fff8f7}#grup{padding-left:80px;margin-top:30px}#h12{padding-left:550px}#p2{padding-left:460px}#p3{padding-left:470px}#grup2,#grup3{padding-left:60px;margin-top:30px}#quizz{margin-top:150px}#quizz h1{margin-top:100px}.button1{width:170px;height:40px}#buttonAction,#buttonGuess,#buttonQuizz2,#buttonQuizz3,#remove,#viewMoreFilm,#viewMoreSerie{background-color:#de2221;border-color:#de2221}.button2{border-width:2px}#viewBest,#viewMore,#viewPlay{background-color:transparent}
 </style>

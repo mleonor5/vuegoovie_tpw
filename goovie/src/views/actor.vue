@@ -37,10 +37,8 @@
     </div>
   </div>
 </template>
-
 <script>
 import { mapGetters, mapMutations } from "vuex";
-
 export default {
   name: "Actor",
   data() {
@@ -67,6 +65,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>

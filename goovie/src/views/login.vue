@@ -32,10 +32,8 @@
     </b-container>
   </div>
 </template>
-
 <script>
 import { mapGetters, mapMutations } from "vuex";
-
 export default {
   name: "Login",
   data() {
@@ -60,51 +58,6 @@ export default {
   },
 };
 </script>
-
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h1 {
-  font-family: "Anton", sans-serif;
-  color: #7c766d;
-}
-
-h2 {
-  font-family: "Anton", sans-serif;
-}
-
-#linkRegister {
-  color: #baa5a3;
-}
-
-#input-1,
-#input-3 {
-  border-color: #de2221;
-}
-
-#input-group-1,
-#input-group-3,
-#button {
-  font-family: "Quicksand", sans-serif;
-  color: #070707;
-}
-
-.column {
-  padding: 70px;
-}
-
-#button {
-  background-color: #de2221;
-  border-color: #de2221;
-  color: #fef8f8;
-  width: 170px;
-  height: 40px;
-}
+@import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);h1,h2{font-family:Anton,sans-serif}#button,#input-1,#input-3{border-color:#de2221}*{margin:0;padding:0;box-sizing:border-box}h1{color:#7c766d}#linkRegister{color:#baa5a3}#button,#input-group-1,#input-group-3{font-family:Quicksand,sans-serif;color:#070707}.column{padding:70px}#button{background-color:#de2221;color:#fef8f8;width:170px;height:40px}
 </style>

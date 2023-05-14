@@ -79,10 +79,8 @@
     </b-container>
   </div>
 </template>
-
 <script>
 import { mapGetters, mapMutations } from "vuex";
-
 export default {
   computed: {
     ...mapGetters(["getMovies", "getLoggedUser"]),
@@ -104,57 +102,6 @@ export default {
   },
 };
 </script>
-
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-
-#profile {
-  padding-top: 60px;
-  background-color: #070707;
-}
-
-#username {
-  font-family: "Anton", sans-serif;
-  padding-top: 20px;
-  color: #7c766d;
-}
-
-#description,
-#follow,
-#points,
-#badgeName {
-  color: #fef8f8;
-}
-
-#buttonEdit {
-  background-color: #070707;
-  border-color: #de2221;
-  color: #fef8f8;
-  width: 170px;
-  height: 40px;
-}
-
-#buttonEdit:hover {
-  background-color: #de2221;
-}
-
-#follow,
-#points {
-  padding-bottom: 30px;
-  padding-top: 20px;
-}
-
-#profile h2 {
-  color: #7c766d;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-#badgeContainer {
-  padding-bottom: 40px;
-}
-
-footer {
-  background-color: #fef8f8;
-}
+@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);#buttonEdit,#profile{background-color:#070707}#badgeName,#buttonEdit,#description,#follow,#points{color:#fef8f8}#profile{padding-top:60px}#username{font-family:Anton,sans-serif;padding-top:20px;color:#7c766d}#buttonEdit{border-color:#de2221;width:170px;height:40px}#buttonEdit:hover{background-color:#de2221}#follow,#points{padding-bottom:30px;padding-top:20px}#profile h2{color:#7c766d;padding-top:30px;padding-bottom:30px}#badgeContainer{padding-bottom:40px}footer{background-color:#fef8f8}
 </style>

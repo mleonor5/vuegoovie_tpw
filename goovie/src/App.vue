@@ -68,7 +68,6 @@
     </footer>
   </div>
 </template>
-
 <script>
 import { mapGetters, mapActions } from "vuex";
 export default {
@@ -84,45 +83,6 @@ export default {
   },
 };
 </script>
-
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-
-#app {
-  font-family: "Quicksand", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-.link {
-  padding: 30px;
-  color: #fef8f8;
-  text-decoration: none;
-}
-.link:hover {
-  text-decoration: #de2221;
-  color: #fef8f8;
-  text-decoration-line: underline;
-}
-
-#navbarBackground {
-  background: #070707;
-}
-
-#logout {
-  background-color: #070707;
-  border-color: #de2221;
-  color: #fef8f8;
-  width: 100px;
-  height: 40px;
-}
-
-#logout:hover {
-  background-color: #de2221;
-}
-#footer {
-  bottom: 0;
-}
+@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);#logout,.link,.link:hover{color:#fef8f8}#app{font-family:Quicksand,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50}.link{padding:30px;text-decoration:none}.link:hover{text-decoration:#de2221;text-decoration-line:underline}#navbarBackground{background:#070707}#logout{background-color:#070707;border-color:#de2221;width:100px;height:40px}#logout:hover{background-color:#de2221}#footer{bottom:0}
 </style>

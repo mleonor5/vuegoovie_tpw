@@ -141,10 +141,8 @@
     <br /><br />
   </div>
 </template>
-
 <script>
 import { mapGetters, mapMutations } from "vuex";
-
 export default {
   name: "Film",
   data() {
@@ -228,36 +226,6 @@ export default {
   },
 };
 </script>
-
 <style>
-#buttonModal {
-  width: 150px;
-  margin-top: 30px;
-  background-color: transparent;
-  border-color: #de2221;
-  border-width: 2px;
-  color: #070707;
-}
-#buttonModal:hover {
-  background-color: #de2221;
-  color: #fef8f8;
-}
-.heart {
-  color: #baa5a3;
-}
-.heart:hover {
-  color: #ff2626;
-}
-.star {
-  color: #baa5a3;
-}
-.check {
-  color: #baa5a3;
-}
-.star:hover {
-  color: #fcd40d;
-}
-.check:hover {
-  color: #009129;
-}
+#buttonModal{width:150px;margin-top:30px;background-color:transparent;border-color:#de2221;border-width:2px;color:#070707}#buttonModal:hover{background-color:#de2221;color:#fef8f8}.check,.heart,.star{color:#baa5a3}.heart:hover{color:#ff2626}.star:hover{color:#fcd40d}.check:hover{color:#009129}
 </style>
