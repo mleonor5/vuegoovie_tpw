@@ -38,30 +38,5 @@
   </div>
 </template>
 <script>
-import { mapGetters, mapMutations } from "vuex";
-export default {
-  name: "Actor",
-  data() {
-    return {
-      actor: [],
-    };
-  },
-  created() {
-    this.actors();
-  },
-  computed: {
-    ...mapGetters(["getActor"]),
-  },
-  methods: {
-    ...mapMutations(["SET_FAVORITES_ACTOR"]),
-    actors() {
-      this.actor = this.getActor(this.$route.params.actorId);
-      console.log(this.$route.params.actorId);
-      console.log(this.actor);
-    },
-    addFavorites(id) {
-      this.SET_FAVORITES_ACTOR(id);
-    },
-  },
-};
+import{mapGetters as t,mapMutations as o}from"vuex";export default{name:"Actor",data:()=>({actor:[]}),created(){this.actors()},computed:{...t(["getActor"])},methods:{...o(["SET_FAVORITES_ACTOR"]),actors(){this.actor=this.getActor(this.$route.params.actorId),console.log(this.$route.params.actorId),console.log(this.actor)},addFavorites(t){this.SET_FAVORITES_ACTOR(t)}}};
 </script>

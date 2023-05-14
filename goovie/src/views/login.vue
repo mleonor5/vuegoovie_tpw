@@ -33,30 +33,7 @@
   </div>
 </template>
 <script>
-import { mapGetters, mapMutations } from "vuex";
-export default {
-  name: "Login",
-  data() {
-    return {
-      username: "",
-      password: "",
-    };
-  },
-  computed: {
-    ...mapGetters(["isUser"]),
-  },
-  methods: {
-    login() {
-      if (this.isUser(this.username, this.password)) {
-        this.SET_LOGGED_USER(this.username);
-        this.$router.push({ name: "Home" });
-      } else {
-        alert("USER NOT FOUND!");
-      }
-    },
-    ...mapMutations(["SET_LOGGED_USER"]),
-  },
-};
+import{mapGetters as s,mapMutations as e}from"vuex";export default{name:"Login",data:()=>({username:"",password:""}),computed:{...s(["isUser"])},methods:{login(){this.isUser(this.username,this.password)?(this.SET_LOGGED_USER(this.username),this.$router.push({name:"Home"})):alert("USER NOT FOUND!")},...e(["SET_LOGGED_USER"])}};
 </script>
 <style>
 @import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);h1,h2{font-family:Anton,sans-serif}#button,#input-1,#input-3{border-color:#de2221}*{margin:0;padding:0;box-sizing:border-box}h1{color:#7c766d}#linkRegister{color:#baa5a3}#button,#input-group-1,#input-group-3{font-family:Quicksand,sans-serif;color:#070707}.column{padding:70px}#button{background-color:#de2221;color:#fef8f8;width:170px;height:40px}

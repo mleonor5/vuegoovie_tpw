@@ -48,51 +48,7 @@
   </div>
 </template>
 <script>
-import { mapGetters, mapMutations } from "vuex";
-export default {
-  name: "Register",
-  data() {
-    return {
-      form: {
-        username: "",
-        nationality: "",
-        password: "",
-        passwordConfirm: "",
-        type: "regular",
-        points: 0,
-        photo: "",
-      },
-    };
-  },
-  computed: {
-    ...mapGetters(["isUsernameAvailable"]),
-    validation() {
-      return this.form.password.length > 5;
-    },
-    confirm() {
-      return this.form.password === this.form.passwordConfirm;
-    },
-    ...mapGetters(["getCountries"]),
-  },
-  methods: {
-    register() {
-      if (
-        !this.isUsernameAvailable(this.form.username) &&
-        this.form.password !== this.form.passwordConfirm
-      ) {
-        alert("USER AND PASSWORD ARE WRONG!");
-      } else if (!this.isUsernameAvailable(this.form.username)) {
-        alert("USER ALREADY EXISTS!");
-      } else if (this.form.password !== this.form.passwordConfirm) {
-        alert("PASSWORD WRONG!");
-      } else {
-        this.SET_NEW_USER(this.form), this.$router.push({ name: "login" });
-      }
-    },
-
-    ...mapMutations(["SET_NEW_USER"]),
-  },
-};
+import{mapGetters as s,mapMutations as r}from"vuex";export default{name:"Register",data:()=>({form:{username:"",nationality:"",password:"",passwordConfirm:"",type:"regular",points:0,photo:""}}),computed:{...s(["isUsernameAvailable"]),validation(){return this.form.password.length>5},confirm(){return this.form.password===this.form.passwordConfirm},...s(["getCountries"])},methods:{register(){this.isUsernameAvailable(this.form.username)||this.form.password===this.form.passwordConfirm?this.isUsernameAvailable(this.form.username)?this.form.password!==this.form.passwordConfirm?alert("PASSWORD WRONG!"):(this.SET_NEW_USER(this.form),this.$router.push({name:"login"})):alert("USER ALREADY EXISTS!"):alert("USER AND PASSWORD ARE WRONG!")},...r(["SET_NEW_USER"])}};
 </script>
 <style>
 @import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);h1,h2{font-family:Anton,sans-serif}#button,#input-1,#input-2,#input-3,#input-4{border-color:#de2221}*{margin:0;padding:0;box-sizing:border-box}h1{color:#7c766d}#linkLogin{color:#baa5a3}#button,#input-group-1,#input-group-2,#input-group-3,#input-group-4{font-family:Quicksand,sans-serif;color:#070707}.column{padding:70px}#button{background-color:#de2221;color:#fef8f8;width:170px;height:40px}

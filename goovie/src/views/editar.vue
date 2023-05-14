@@ -31,28 +31,7 @@
   </div>
 </template>
 <script>
-import { mapMutations, mapGetters } from "vuex";
-export default {
-  name: "Editar conta",
-  data() {
-    return {
-      form: {
-        photo: "",
-        username: "",
-        password: "",
-      },
-    };
-  },
-  methods: {
-    ...mapMutations(["SET_EDIT"]),
-    edit() {
-      this.SET_EDIT(this.form);
-    },
-  },
-  computed: {
-    ...mapGetters(["getLoggedUser"]),
-  },
-};
+import{mapMutations as t,mapGetters as e}from"vuex";export default{name:"Editar conta",data:()=>({form:{photo:"",username:"",password:""}}),methods:{...t(["SET_EDIT"]),edit(){this.SET_EDIT(this.form)}},computed:{...e(["getLoggedUser"])}};
 </script>
 <style>
 #buttonCancel{border-color:#fef8f8;background-color:#070707}#buttonCancel:hover{background-color:#fef8f8;color:#070707}#pass,#user{border-color:#de2221;background-color:#070707}#labelEdit{color:#fef8f8;padding-bottom:35px}#flagEdit{width:50px;height:50px;padding-top:50px;padding-bottom:50px}#formEdit{padding-top:100px}#buttonsEdit{padding-bottom:40px}

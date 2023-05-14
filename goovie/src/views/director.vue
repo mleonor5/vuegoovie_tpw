@@ -38,30 +38,5 @@
   </div>
 </template>
 <script>
-import { mapGetters, mapMutations } from "vuex";
-export default {
-  name: "Director",
-  data() {
-    return {
-      director: [],
-    };
-  },
-  created() {
-    this.directors();
-  },
-  computed: {
-    ...mapGetters(["getDirector"]),
-  },
-  methods: {
-    ...mapMutations(["SET_FAVORITES_DIRECTOR"]),
-    directors() {
-      this.director = this.getDirector(this.$route.params.directorId);
-      console.log(this.$route.params.directorId);
-      console.log(this.director);
-    },
-    addFavorites(id) {
-      this.SET_FAVORITES_DIRECTOR(id);
-    },
-  },
-};
+import{mapGetters as r,mapMutations as t}from"vuex";export default{name:"Director",data:()=>({director:[]}),created(){this.directors()},computed:{...r(["getDirector"])},methods:{...t(["SET_FAVORITES_DIRECTOR"]),directors(){this.director=this.getDirector(this.$route.params.directorId),console.log(this.$route.params.directorId),console.log(this.director)},addFavorites(r){this.SET_FAVORITES_DIRECTOR(r)}}};
 </script>

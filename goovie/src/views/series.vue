@@ -31,24 +31,5 @@
   </div>
 </template>
 <script>
-import { mapGetters } from "vuex";
-export default {
-  data() {
-    return {
-      series: "",
-    };
-  },
-  created() {
-    this.shows();
-  },
-  computed: {
-    ...mapGetters(["getSeries"]),
-  },
-  methods: {
-    shows() {
-      this.series = this.getSeries;
-      console.log(this.series);
-    },
-  },
-};
+import{mapGetters as e}from"vuex";export default{data:()=>({series:""}),created(){this.shows()},computed:{...e(["getSeries"])},methods:{shows(){this.series=this.getSeries,console.log(this.series)}}};
 </script>

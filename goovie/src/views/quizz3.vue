@@ -42,43 +42,5 @@
   </div>
 </template>
 <script>
-import { mapGetters } from "vuex";
-export default {
-  name: "App",
-  data() {
-    return {
-      rightAnswer: undefined,
-      answer: 0,
-      status: "",
-      started: false,
-    };
-  },
-  computed: {
-    formValid() {
-      return +this.answer >= 0;
-    },
-    ...mapGetters(["getMovies", "getSeries"]),
-  },
-  methods: {
-    start() {
-      this.rightAnswer = Math.ceil(Math.random() * 10);
-      console.log(this.rightAnswer);
-      this.started = true;
-    },
-    submit() {
-      if (!this.formValid) {
-        return;
-      }
-      const { answer, rightAnswer } = this;
-      if (answer === rightAnswer) {
-        this.status = "you got it";
-        this.started = false;
-      } else if (answer < rightAnswer) {
-        this.status = "too low";
-      } else {
-        this.status = "too high";
-      }
-    },
-  },
-};
+import{mapGetters as t}from"vuex";export default{name:"App",data:()=>({rightAnswer:void 0,answer:0,status:"",started:!1}),computed:{formValid(){return+this.answer>=0},...t(["getMovies","getSeries"])},methods:{start(){this.rightAnswer=Math.ceil(10*Math.random()),console.log(this.rightAnswer),this.started=!0},submit(){if(!this.formValid)return;let{answer:t,rightAnswer:s}=this;t===s?(this.status="you got it",this.started=!1):t<s?this.status="too low":this.status="too high"}}};
 </script>

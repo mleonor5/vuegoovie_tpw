@@ -40,10 +40,5 @@
   </div>
 </template>
 <script>
-import { mapGetters } from "vuex";
-export default {
-  computed: {
-    ...mapGetters(["getUsers"]),
-  },
-};
+import{mapGetters as e}from"vuex";export default{computed:{...e(["getUsers"])}};
 </script>

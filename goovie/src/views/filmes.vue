@@ -31,10 +31,5 @@
   </div>
 </template>
 <script>
-import { mapGetters } from "vuex";
-export default {
-  computed: {
-    ...mapGetters(["getMovies"]),
-  },
-};
+import{mapGetters as e}from"vuex";export default{computed:{...e(["getMovies"])}};
 </script>

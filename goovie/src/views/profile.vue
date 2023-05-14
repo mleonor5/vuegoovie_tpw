@@ -80,27 +80,7 @@
   </div>
 </template>
 <script>
-import { mapGetters, mapMutations } from "vuex";
-export default {
-  computed: {
-    ...mapGetters(["getMovies", "getLoggedUser"]),
-    favorites() {
-      return this.getLoggedUser.favorites;
-    },
-    watchedFilms() {
-      return this.getLoggedUser.watchedFilms;
-    },
-    watchedSeries() {
-      return this.getLoggedUser.watchedSeries;
-    },
-  },
-  methods: {
-    ...mapMutations(["SET_REMOVE_FAVORITE"]),
-    removeFavorite(title) {
-      this.SET_REMOVE_FAVORITE(title);
-    },
-  },
-};
+import{mapGetters as e,mapMutations as t}from"vuex";export default{computed:{...e(["getMovies","getLoggedUser"]),favorites(){return this.getLoggedUser.favorites},watchedFilms(){return this.getLoggedUser.watchedFilms},watchedSeries(){return this.getLoggedUser.watchedSeries}},methods:{...t(["SET_REMOVE_FAVORITE"]),removeFavorite(e){this.SET_REMOVE_FAVORITE(e)}}};
 </script>
 <style>
 @import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);#buttonEdit,#profile{background-color:#070707}#badgeName,#buttonEdit,#description,#follow,#points{color:#fef8f8}#profile{padding-top:60px}#username{font-family:Anton,sans-serif;padding-top:20px;color:#7c766d}#buttonEdit{border-color:#de2221;width:170px;height:40px}#buttonEdit:hover{background-color:#de2221}#follow,#points{padding-bottom:30px;padding-top:20px}#profile h2{color:#7c766d;padding-top:30px;padding-bottom:30px}#badgeContainer{padding-bottom:40px}footer{background-color:#fef8f8}
