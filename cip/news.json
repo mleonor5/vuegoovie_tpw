@@ -1,0 +1,14 @@
+{
+    "news": [
+        {
+            "summary": "Coral Reef",
+            "description": "Location: Red Sea",
+            "source": "../../images/news/noticia1.png"
+        },
+        {
+            "summary": "Phone",
+            "description": "iPhone 6 on the table",
+            "source": "../../images/news/noticia2.png"
+        }
+    ]
+}
