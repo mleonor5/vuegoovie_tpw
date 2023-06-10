@@ -3,7 +3,7 @@
     <b-container class="bv-example-row">
       <b-row>
         <b-col>
-          <img src="../assets/background.webp" alt="Background" style="max-height: 631px"/>
+          <img src="../assets/background.webp" srcset="../assets/background-480.webp 480w, ../assets/background-1080.webp 1080w, ../assets/background.webp 956w" sizes="(max-width: 480px) 480px, (max-width: 1080px) 1080px, 956px" style="max-height: 631px" alt="Background">
         </b-col>
         <b-col>
           <b-row>
