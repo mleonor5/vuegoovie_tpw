@@ -1,5 +1,6 @@
 const app = require('../index');
 
+//Autenticação
 describe('Auth Middleware', () => {
   it('should call next() for exceptions', (done) => {
     const req = { url: '/users/login' };
@@ -39,4 +40,41 @@ describe('Root Route', () => {
         done();
       });
   });
+});
+
+
+
+//Insert User
+test('INSERT USER', async () => {
+  const data = {
+    username: 'Lucas',
+    role: 'user',
+    email: 'lucas@gmail.com',
+    password: '12345',
+    school: 'ESMAD',
+    points: 0,
+    coins: 0
+  };
+  const result = await app.insert(data);
+  expect(result).toBeTruthy();
+});
+
+//Get User
+test('GET USER', async () => {
+  const username = 'Lucas';
+  const result = await app.list(username);
+  expect(result.username).toMatch('Lucas');
+  expect(result.email).toMatch('lucas@gmail.com');
+});
+
+//Delete User
+test('DELETE USER', async () => {
+  const email = 'lucas@gmail.com';
+  const result = await app.drop(email);
+  expect(result.username).toMatch('Lucas');
+  expect(result).toBeTruthy();
+});
+
+afterAll(() => {
+  app.clearDatabase();
 });
