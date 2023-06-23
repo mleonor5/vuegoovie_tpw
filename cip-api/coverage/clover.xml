@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687125299579" clover="3.2.0">
-  <project timestamp="1687125299579" name="All files">
+<coverage generated="1687512861664" clover="3.2.0">
+  <project timestamp="1687512861664" name="All files">
     <metrics statements="582" coveredstatements="177" conditionals="235" coveredconditionals="0" methods="111" coveredmethods="6" elements="928" coveredelements="183" complexity="0" loc="582" ncloc="582" packages="6" files="21" classes="21"/>
     <package name="cip-api">
       <metrics statements="55" coveredstatements="30" conditionals="10" coveredconditionals="0" methods="10" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\index.js">
+      <file name="index.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\index.js">
         <metrics statements="29" coveredstatements="20" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -36,7 +36,7 @@
         <line num="47" count="0" type="stmt"/>
         <line num="49" count="1" type="stmt"/>
       </file>
-      <file name="jwt.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\jwt.js">
+      <file name="jwt.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\jwt.js">
         <metrics statements="24" coveredstatements="8" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -63,7 +63,7 @@
         <line num="39" count="1" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
       </file>
-      <file name="swagger_conf.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\swagger_conf.js">
+      <file name="swagger_conf.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\swagger_conf.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
@@ -71,7 +71,7 @@
     </package>
     <package name="cip-api.config">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="db.config.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\config\db.config.js">
+      <file name="db.config.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\config\db.config.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
@@ -79,7 +79,7 @@
     </package>
     <package name="cip-api.connection">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="connection_mysql.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\connection\connection_mysql.js">
+      <file name="connection_mysql.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\connection\connection_mysql.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -88,7 +88,7 @@
     </package>
     <package name="cip-api.controllers">
       <metrics statements="361" coveredstatements="44" conditionals="213" coveredconditionals="0" methods="59" coveredmethods="0"/>
-      <file name="courses.controller.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\controllers\courses.controller.js">
+      <file name="courses.controller.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\controllers\courses.controller.js">
         <metrics statements="71" coveredstatements="9" conditionals="38" coveredconditionals="0" methods="14" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -162,7 +162,7 @@
         <line num="162" count="0" type="stmt"/>
         <line num="163" count="0" type="stmt"/>
       </file>
-      <file name="modules.controller.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\controllers\modules.controller.js">
+      <file name="modules.controller.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\controllers\modules.controller.js">
         <metrics statements="55" coveredstatements="7" conditionals="28" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -220,7 +220,7 @@
         <line num="123" count="0" type="stmt"/>
         <line num="124" count="0" type="stmt"/>
       </file>
-      <file name="news.controller.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\controllers\news.controller.js">
+      <file name="news.controller.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\controllers\news.controller.js">
         <metrics statements="14" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -237,7 +237,7 @@
         <line num="25" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
       </file>
-      <file name="usercourse.controller.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\controllers\usercourse.controller.js">
+      <file name="usercourse.controller.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\controllers\usercourse.controller.js">
         <metrics statements="77" coveredstatements="8" conditionals="57" coveredconditionals="0" methods="7" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -317,7 +317,7 @@
         <line num="177" count="0" type="stmt"/>
         <line num="178" count="0" type="stmt"/>
       </file>
-      <file name="users.controller.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\controllers\users.controller.js">
+      <file name="users.controller.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\controllers\users.controller.js">
         <metrics statements="144" coveredstatements="15" conditionals="88" coveredconditionals="0" methods="28" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -467,13 +467,13 @@
     </package>
     <package name="cip-api.models">
       <metrics statements="40" coveredstatements="38" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
-      <file name="courses.model.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\models\courses.model.js">
+      <file name="courses.model.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\models\courses.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="52" count="1" type="stmt"/>
       </file>
-      <file name="index.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\models\index.js">
+      <file name="index.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\models\index.js">
         <metrics statements="24" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -500,25 +500,25 @@
         <line num="50" count="0" type="stmt"/>
         <line num="52" count="1" type="stmt"/>
       </file>
-      <file name="modules.model.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\models\modules.model.js">
+      <file name="modules.model.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\models\modules.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="41" count="1" type="stmt"/>
       </file>
-      <file name="news.model.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\models\news.model.js">
+      <file name="news.model.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\models\news.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
       </file>
-      <file name="usercourse.model.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\models\usercourse.model.js">
+      <file name="usercourse.model.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\models\usercourse.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
       </file>
-      <file name="users.model.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\models\users.model.js">
+      <file name="users.model.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\models\users.model.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -528,7 +528,7 @@
     </package>
     <package name="cip-api.routes">
       <metrics statements="121" coveredstatements="60" conditionals="12" coveredconditionals="0" methods="35" coveredmethods="0"/>
-      <file name="courses.routes.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\routes\courses.routes.js">
+      <file name="courses.routes.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\routes\courses.routes.js">
         <metrics statements="37" coveredstatements="15" conditionals="6" coveredconditionals="0" methods="9" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -568,7 +568,7 @@
         <line num="133" count="0" type="stmt"/>
         <line num="136" count="1" type="stmt"/>
       </file>
-      <file name="modules.routes.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\routes\modules.routes.js">
+      <file name="modules.routes.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\routes\modules.routes.js">
         <metrics statements="14" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -585,7 +585,7 @@
         <line num="62" count="0" type="stmt"/>
         <line num="65" count="1" type="stmt"/>
       </file>
-      <file name="news.routes.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\routes\news.routes.js">
+      <file name="news.routes.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\routes\news.routes.js">
         <metrics statements="12" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -600,7 +600,7 @@
         <line num="35" count="0" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
       </file>
-      <file name="usercourses.routes.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\routes\usercourses.routes.js">
+      <file name="usercourses.routes.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\routes\usercourses.routes.js">
         <metrics statements="16" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -619,7 +619,7 @@
         <line num="74" count="0" type="stmt"/>
         <line num="77" count="1" type="stmt"/>
       </file>
-      <file name="users.routes.js" path="C:\Users\vivi4\OneDrive\Ambiente de Trabalho\V\Estudante\Faculdade\3rd year\2semestre\Bruh\projeto\vuegoovie_tpw-1\cip-api\routes\users.routes.js">
+      <file name="users.routes.js" path="C:\Users\leono\OneDrive\Ambiente de Trabalho\Trabalho de TPW\vuegoovie_tpw\cip-api\routes\users.routes.js">
         <metrics statements="42" coveredstatements="19" conditionals="4" coveredconditionals="0" methods="13" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
